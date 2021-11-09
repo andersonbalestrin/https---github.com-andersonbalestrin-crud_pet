@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+    <title>Cadastro Pet</title>
+</head>
+<body>
+    <img class="img-fluid mx-auto d-block" src="Fotos/Logo.png" class="img-thumbnail" alt="Jiji" width="50%" height="50%"> 
+    <div class="container">
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="Index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Produtos.html">Produtos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Cadastro.html">Cadastro</a>
+               </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="FAQ.html">FAQ</a>
+              </li>
+              
+          </ul>
+      </nav>
+
+      <h3 style=   'text-align: center; padding-top: 5.2%;' > Efetue o seu cadastro e o do seu pet</h3>
+
+
+      <div class="container-fluid">
+
+      <form>
+                      
+
+        <div class="row justify-content-center">
+            <div class="form-group col-md-4 col-md-offset-5 align-center">
+                <input type="text" maxlength="6" class="form-control" id="numero"  onkeypress="return ( event.charCode >= 48 && event.charCode <= 57 )" placeholder="Digite o seu ID de cadastro">
+            </div>
+        </div>
+       
+            <div class="row justify-content-center">
+                <div class="form-group col-md-4 col-md-offset-5 align-center">
+                <input type="text" class="form-control "  onkeypress="return  (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)  " id="nomeDonoPet" placeholder="Digite o seu nome">
+                </div>
+            </div>
+
+
+            <div class="row justify-content-center">
+                <div class="form-group col-md-4 col-md-offset-5 align-center">
+                   <input type="text" maxlength="15" class="form-control" onkeypress="return  (event.charCode >= 48 && event.charCode <= 57) " placeholder="Digite seu número de telefone"  id="telefone" >
+                </div>
+                </div>
+
+                <div class="row justify-content-center">
+               <div class="form-group col-md-4 col-md-offset-5 align-center">
+               <input type="text" class="form-control "  onkeypress="return  (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)  " id="nomePet" placeholder="Digite o nome do seu Pet">
+               </div>
+        </div>
+        <div class="row justify-content-center">
+
+               <div class="form-group col-md-4 col-md-offset-5 align-center">
+                <input type="text" class="form-control "  onkeypress="return  (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)  " id="racaPet" placeholder="Digite a raça do seu Pet">
+                </div>
+        </div>
+        
+
+        
+
+       </div>
+      
+       <div class="row justify-content-center">
+
+       <div class="form-group col-md-4 col-md-offset-5 align-center">
+            <button class="btn btn-outline-dark"> Cadastrar</button>   
+        
+
+            <button class="btn btn-outline-dark"> Consultar</button>   
+        
+        
+            <button class="btn btn-outline-dark"> Excluir</button>   
+        </div>
+        </div>
+         </form>
+        </div>
+
+    
+
+    <footer class="mdb-footer">
+
+        <h6>Copyright 2020 - Todos os direitos reservados - Vet Life </h6>
+        
+            
+        </footer>
+
+    
+    
+    
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    </body>
+</html>
+    
