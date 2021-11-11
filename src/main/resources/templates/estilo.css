@@ -1,0 +1,121 @@
+
+.navbar-nav > li{
+  padding-left:40%;
+  padding-right:40%;
+}
+h6{
+    text-align:center;
+    color: rgba(255, 255, 255, 0.973);
+}
+footer {
+  height: 50px;
+  padding-top: flex;
+  background-color: #000000;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.col-sm{
+
+    padding-bottom: 80px;
+
+}
+p{
+padding-top: 10px;
+
+}
+#adj{
+  padding-top: 80px;
+
+}
+
+.btn-outline-dark{
+  margin-top:10px;
+  margin-left: 6.2%;
+}
+
+.row{
+
+    padding-top: 20px;
+}
+span{
+padding-right: 20px;
+
+}
+
+.mb-3{
+
+
+    padding-top: 50px;
+}
+
+.fa {  
+padding-left:2px;		  
+font-size: 20px;
+color: white;
+background: #000000;			 
+}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+.negrito {
+  font-weight: bold;
+ }
+ 
+ .txt{
+
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right:0px ;
+  
+ }
+
+ .nad{
+padding-right: 0px;
+
+ }
+ .freq{
+
+  text-align: center;
+  padding-top: 20px;
+
+ }
+
+
+
+ .w-100 {
+   
+  width: 40% !important;
+  height: 40%;
+  margin-left: 30%;
+}
+h2{
+
+  text-align: center;
+  padding-top: 40px;
+}
+
+.container-fluid {
+
+padding-top: 3%;
+
+}
